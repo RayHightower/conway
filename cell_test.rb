@@ -1,6 +1,6 @@
 require 'minitest/spec'
 require 'minitest/autorun'
-require './life'
+require './cell'
 
 describe "a living cell" do
   (0..1).each do |neighbors|
