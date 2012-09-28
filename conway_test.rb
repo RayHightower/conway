@@ -12,7 +12,16 @@ describe Board do
 
   it "has cells" do
     @board = Board.new
-    @board.cells.must_not be_nil
+    @board.cells.wont_be_nil
   end
 
+end
+
+describe Cell do
+  
+  it "is either dead or alive" do
+    @cell = Cell.new
+    @cell.wont_be_nil
+    
+  end
 end
